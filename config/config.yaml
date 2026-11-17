@@ -1,0 +1,13 @@
+env: test
+
+envs:
+  test:
+    base_url: "https://httpbin.org"
+    timeout: 10
+  prod:
+    base_url: "https://httpbin.org"
+    timeout: 10
+
+user:
+  username: "demo"
+  password: "123456"

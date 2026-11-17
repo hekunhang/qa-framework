@@ -1,0 +1,10 @@
+- title: 单个参数
+  params:
+    who: "autotest"
+- title: 中文参数
+  params:
+    who: "自动化测试"
+- title: 多个参数
+  params:
+    name: "hekunhang"
+    job: "tester"
