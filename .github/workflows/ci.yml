@@ -17,6 +17,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: 执行接口用例
+        env:
+          PYTHONIOENCODING: utf-8
         run: python -m pytest testcases -v --html=reports/report.html --self-contained-html
       - name: 上传测试报告
         if: always()
